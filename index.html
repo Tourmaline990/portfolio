@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script src="/src/js/main.js" type="module"></script>
+</head>
+<body>
+   <header>
+     <span>Agbetoba Aliya</span>
+      <button id="hamBtn"></button>
+      <nav>
+         <button id="closeMenu"></button>
+        <ul id="navList">
+         <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+   </nav>
+   </header>
+  
+   <div id="overlay"></div>
+   <main>
+      <section id="hero">
+         <article>
+            <h1>Hi, I'm Agbetoba Aliya</h1>
+            <h2>Software Development</h2>
+             <p>I build web applications across the frontend and backend, with a growing focus on server-side development and databases.</p>
+             <button id="viewProject">View My Work</button>
+         </article>
+         <article id="system-visual">
+            <div id="system-nodes">
+              <span>Client</span>
+              <span>Server</span>
+              <span>Database</span>
+            
+            <div id="request">
+               <span></span>
+            </div>
+            </div>
+         </article>
+      </section>
+      <section id="about">
+         <h3>About Me</h3>
+         <p>I'm a software development student building web applications across the frontend and backend. 
+            I started with frontend development 
+            and am currently expanding into server-side development, databases, and application architecture.</p>
+      </section>
+      <section id="skills">
+         <h3>Skills</h3>
+           <article class="frontend">
+            <h4>Frontend</h4>
+            <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JavaScript</li>
+               <li>Vite</li>
+            </ul>
+           </article>
+           <article class="backend">
+            <h4>Backend</h4>
+            <ul>
+               <li>Node.js</li>
+               <li>Express</li>
+               <li>EJS</li>
+            </ul>
+           </article>
+           <article class="database">
+            <h4>Database</h4>
+            <ul>
+               <li>PostgreSQL</li>
+               <li>MySQL</li>
+            </ul>
+         </article>
+           <article class="tools">
+            <h4>Tools</h4>
+            <ul>
+               <li>Git</li>
+               <li>GitHub</li>
+               <li>Render</li>
+            </ul>
+           </article>
+      </section>
+      <section id="projects">
+         <h3>Projects</h3>
+         <article>
+            <h4>Shopping Companion</h4>
+            <img src="/src/public/assets/shopping-companion.png" alt="shopping companion image" loading="lazy"  >
+            <p>A responsive e-commerce web application that allows users to browse, 
+            search, filter, and explore products using data from an external API. </p>
+           <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Vite</li>
+           </ul>
+           <div class="projectLinks">
+               <a href="https://wdd330-final-9gws.onrender.com/index.html" target="_blank" rel="noopener norefferer">Live Site <img src="/src/public/assets/arrow-up-right-square.svg" alt="external link icon"></a>
+               <a href="https://github.com/Tourmaline990/wdd330--final" target="_blank" rel="noopener norefferer">GitHub <img src="/src/public/assets/arrow-up-right-square.svg" alt="external link icon"></a>
+           </div>
+         </article>
+         <article>
+            <h4>Cse 340 service Network</h4>
+            <img src="/src/public/assets/cse340.png" alt="service network image" loading="lazy">
+            <p>A full-stack service platform that connects users 
+               with organizations and community projects, built with Express, EJS, and PostgreSQL. </p>
+            <ul>
+             <li>Express</li>
+             <li>EJS</li>
+             <li>PostgreSQL</li>
+             <li>Node.js</li>
+            </ul>
+            <div class="projectLinks">
+              <a href="https://cse340-aa.onrender.com/" target="_blank" rel="noopener norefferer">Live Site <img src="/src/public/assets/arrow-up-right-square.svg" alt="external link icon"></a>
+              <a href="https://github.com/Tourmaline990/CSE340" target="_blank" rel="noopener norefferer">GitHub <img src="/src/public/assets/arrow-up-right-square.svg" alt="external link icon"></a>
+            </div>
+         </article>
+         <article>
+            <h4>Dynamic Earth</h4>
+            <img src="/src/public/assets/nasa.png" alt="dynamic earth image" loading="lazy">
+            <p>An interactive web experience that turns 
+               live NASA observational data into an accessible exploration of Earth's changing environment.  </p>
+            <ul>
+             <li>HTML</li>
+             <li>CSS</li>
+             <li>JavaScript</li>
+            </ul>
+            <div class="projectLinks">
+              <a href="https://tourmaline990.github.io/wdd231/final/index.html" target="_blank" rel="noopener norefferer">Live Site <img src="/src/public/assets/arrow-up-right-square.svg" alt="external link icon"></a>
+              <a href="https://github.com/Tourmaline990/wdd231/tree/main/final" target="_blank" rel="noopener norefferer">GitHub <img src="/src/public/assets/arrow-up-right-square.svg" alt="external link icon"></a>
+            </div>
+         </article>
+      </section>
+      <section id="contact">
+         <h3>Contact</h3>
+         <h4>Have a question or want to work together?</h4>
+         <article>
+            <address>
+               <p>Email: <a href="mailto:agbetobahaliya@gmail.com">agbetobahaliya@gmail.com</a></p>
+            </address>
+            <div class="socials">
+            <a href="https://github.com/Tourmaline990" target="_blank" rel="noopener norefferer"><img src="/src/public/assets/github.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/agbetoba-aliya" target="_blank" rel="noopener norefferer"><img src="/src/public/assets/linkedin.svg" alt="LinkedIn"></a>
+          </div>
+         </article>
+      </section>
+   </main>
+   <footer>
+     <p>&copy; <span id="year"></span> Agbetoba Aliya. All rights reserved.</p> 
+   </footer>
+</body>
+</html>

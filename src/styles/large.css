@@ -1,0 +1,73 @@
+@media screen and (min-width:38rem){
+    :root{
+  --background-color: #121212;
+  --surface-color: #1C1C1C;
+  --elevated-surface-color: #242424;
+  --primary-text-color: #F3EFE7;
+  --secondary-text-color: #A8A39A;
+  --accent: #C9A227;
+  --accent-hover: #E0BE4F;
+  --border: #343434;
+  
+  /* Spacing */
+      --space-xs: 0.5rem; 
+      --space-sm: 0.75rem; 
+      --space-md: 1rem; 
+      --space-lg: 1.5rem; 
+      --space-xl: 2rem; 
+      --space-2xl: 3rem; 
+
+      /* Layout */ 
+      --content-width: 1100px;
+      
+      /* Component styling */ 
+      --radius-sm: 0.4rem; 
+      --radius-md: 0.75rem; 
+      --shadow-sm: 0 2px 8px var(--surface-color); 
+    
+}
+#hamBtn,
+#overlay,
+#closeMenu{
+    display: none;
+}
+
+nav{
+    transform: none;
+    position: static;
+    background: none;
+    width: 100%;
+
+}
+#navList{
+    display: flex;
+    justify-content: space-evenly;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding-bottom: var(--space-xs);
+    span{
+        align-self: center;
+    }
+}
+#navList li:hover{
+    background-color: var(--elevated-surface-color);
+    border-radius: var(--radius-md);
+}
+#navList li a:hover{
+    color: var(--secondary-text-color);
+}
+section{
+    max-width: 70vw;
+    margin: 0 auto;
+}
+#viewProject{
+    width: 200px;
+}
+footer{
+    text-align: center;
+}
+}
+
