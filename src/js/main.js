@@ -10,7 +10,7 @@ const closeMenu = document.querySelector("#closeMenu")
 
 async function init(){
 
-   await LoadPartials("/src/public/partials/head.html", document.querySelector("head"));
+   await LoadPartials("/partials/head.html", document.querySelector("head"));
    year.innerHTML = new Date().getFullYear();
 
    hambtn.addEventListener("click",()=> {
